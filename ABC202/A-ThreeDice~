@@ -1,0 +1,9 @@
+<?php
+  $line = fgets(STDIN);
+  $items = explode(" ", $line);
+  $result = 0;
+  foreach($items as $item){
+    $result += $item;
+  }
+  echo (int)$result;
+  
